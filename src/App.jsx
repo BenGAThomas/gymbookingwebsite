@@ -1,10 +1,18 @@
-import SignupLogin from "./loginform"
+// import SignupLogin from "./loginform"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Signup from "./Components/Signup"
+
 
 function App() {
 
   return (
     <>
-      <SignupLogin />
+    <BrowserRouter>
+        <Routes>
+            <Route path = "/signup" element={<Signup />}></Route>
+        </Routes>
+    </BrowserRouter>
+      {/* <SignupLogin /> */}
     </>
   )
 }
