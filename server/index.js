@@ -4,12 +4,15 @@ import mongoose from 'mongoose';
 import { UserRouter } from './routes/userroute.js';
 import cors from 'cors';
 import helmet from 'helmet';
+import cookieParser from 'cookie-parser';
 
 dotenv.config();
 
 const app = express();
 
 app.use(express.json());
+app.use(cookieParser());
+app.use(express.urlencoded({extended: false}));
 app.use(cors());
 app.use('/auth', UserRouter);
 app.use(
