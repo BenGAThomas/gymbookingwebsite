@@ -206,5 +206,153 @@ const gym = [
             "Grand Prix Motorcycle Racing",
             "Snowmobile Racing",
         ]
+    },
+    {
+        category: "Pedal Sports",
+        names: [
+            "BMX",
+            "Downhill Mountain Biking",
+            "Mountain Biking",
+            "Freestyle BMX",
+            "Unicycle",
+            "Wheelchair Racing",
+        ]
+    },
+    {
+        category: "Shooting Sports",
+        names: [
+            "Archery",
+            "Crossbow",
+            "Skeet Shooting",
+            "Bullseye Shooting",
+            "Paintball",
+            "Laser Tag",
+        ]
+    },
+    {
+        category: "Strength Sports",
+        names: [
+            "Strongman",
+            "Arm Wrestling",
+            "Thumb War",
+            "Powerlifting",
+            "Weightlifting",
+            "Crossfit",
+            "Bodybuilding",
+        ]
+    },
+    {
+        category: "Water Sports",
+        names: [
+            "Canoeing",
+            "Rafting",
+            "Rowing",
+            "White Water Rafting",
+            "Sailing",
+            "Water Polo",
+            "Competetive Swimming",
+            "Diving"
+        ]
+    },
+    {
+        category: "Animal Sports",
+        names: [
+            "Greyhound Racing",
+            "Dog Show",
+            "Dog Agility",
+            "Horse Racing",
+            "Horse Polo",
+            "Jousting",
+            "Rodeo",
+            "Fishing",
+            "Hunting",
+        ]
+    },
+    {
+        category: "Card Games",
+        names: [
+            "Poker",
+            "Spades",
+            "Speed",
+            "Blackjack",
+            "Pokemon TCG",
+            "Magic the Gathering",
+            "Yu-Gi-Oh",
+        ]
+    },
+    {
+        category: "Board Games",
+        names: ["Chess",
+            "Checkers",
+            "Chinese Checkers",
+            "Go",
+            "Mahjong",
+            "Dominoes",
+            "Risk",
+            "Scrabble"
+        ]
+    },
+    {
+        category: "E-Sports",
+        names: [
+            "League of Legends",
+            "HearthStone",
+            "Starcraft 2",
+            "World of Warcraft",
+            "Valorant",
+            "EA Sports FC",
+            "Halo",
+            "Super Smash Bros Ultimate",
+            "Marvel VS Capcom",
+            "Street Fighter",
+            "Dota 2",
+            "Rocket League",
+            "Overwatch 2",
+            "Marvel Rivals",
+            "Counter-Strike",
+            "Fortnite",
+            "Tekken",
+            "Call of Duty",
+            "GeoGuesser",
+            "Teamfight Tactics",
+            "Madden NFL",
+            "Mortal Kombat",
+            "Smite",
+            "Gran Turismo",
+            "NBA 2K",
+            "OSU!",
+        ]
+    },
+    {
+        category: "Paralympic Sports",
+        names: [
+            "Para Archery",
+            "Para Athletics",
+            "Para Badminton",
+            "Blind Football",
+            "Boccia",
+            "Para Canoe",
+            "Para Cycling",
+            "Para Equestrian",
+            "Goalball",
+            "Para Judo",
+            "Para Powerlifting",
+            "Para Rowing",
+            "Sitting Volleyball",
+            "Para Swimming",
+            "Para Table Tennis",
+            "Para Taekwondo",
+            "Para Triathlon",
+            "Wheelchair Basketball",
+            "Wheelchair Fencing",
+            "Wheelchair Rugby",
+            "Wheelchair Tennis",
+            "Para Alpine Skiing",
+            "Para Biathlon",
+            "Para Cross-country Skiing",
+            "Para Ice Hockey",
+            "Para Snowboarding",
+            "Wheelchair curling"
+        ]
     }
 ]
