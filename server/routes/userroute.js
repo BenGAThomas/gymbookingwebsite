@@ -1,10 +1,11 @@
 import express from 'express'
 import bcrypt from 'bcrypt'
 import { User } from '../models/User.js';
+import { login, logout, signup } from '../controllers/userController.js';
 
 const router = express.Router();
 
-router.post('/signup', async (req, res) => {
+/*router.post('/signup', async (req, res) => {
     const {username, email, password} = req.body;
     const user = User.find({email})
     if(user) {
@@ -21,5 +22,12 @@ router.post('/signup', async (req, res) => {
     await newUser.save()
     return res.json({message: "record registered User"})
 })
+    */
+
+router.post('/signup', signup);
+
+router.post('/login', login);
+
+router.post('/logout', logout);
 
 export {router as UserRouter}

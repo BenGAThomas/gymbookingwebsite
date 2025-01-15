@@ -5,16 +5,19 @@ import { UserRouter } from './routes/userroute.js';
 import cors from 'cors';
 import helmet from 'helmet';
 import cookieParser from 'cookie-parser';
+import { connectDatabase } from './database/connectionDatabase.js';
 
 dotenv.config();
 
 const app = express();
 
+connectDatabase();
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({extended: false}));
 app.use(cors());
-app.use('/auth', UserRouter);
+app.use('/api/auth', UserRouter);
 app.use(
   helmet.contentSecurityPolicy({
     directives: {
@@ -33,7 +36,7 @@ app.use(function(req, res, next) {
   });
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/authentication')
+// mongoose.connect('mongodb://127.0.0.1:27017/authentication')
 
 // eslint-disable-next-line no-undef
 app.listen(process.env.PORT, () => {
