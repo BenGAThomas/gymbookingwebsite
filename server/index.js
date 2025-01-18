@@ -1,6 +1,5 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import mongoose from 'mongoose';
 import { UserRouter } from './routes/userroute.js';
 import cors from 'cors';
 import helmet from 'helmet';
